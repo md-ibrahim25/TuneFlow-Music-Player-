@@ -14,5 +14,5 @@ Clone the repository and open the vscode after extracting the zip file.
 click on go live button to view the player
 
 ```bash
-git clone https://github.com/yourusername/tuneflow.git
-cd tuneflow
+https://github.com/md-ibrahim25/TuneFlow-Music-Player-.git
+cd TuneFlow
