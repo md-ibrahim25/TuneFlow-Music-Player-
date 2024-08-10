@@ -403,7 +403,7 @@ body {
     }
     .cardcontainer{
         margin: 20px 10px;
-        gap: 100px;;
+        gap: 10;;
         /* justify-content: space-around; */
     }
     .card{
