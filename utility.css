@@ -1,0 +1,87 @@
+.border{
+    border: 2px solid red;
+    margin: 2px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #121212; /* Color of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #121212; /* Color of the thumb */
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #121212; /* Padding around the thumb */
+}
+
+/* Remove scrollbar buttons */
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* Firefox-based browsers */
+* {
+    scrollbar-width: thin; /* Makes scrollbar thinner */
+    scrollbar-color: #121212 #4b4a4a; /* Color of thumb and track */
+}
+
+
+.push--right{
+    margin-left: auto;
+}
+
+.hide-scrollbar {
+    overflow: auto; /* Allows scrolling */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
