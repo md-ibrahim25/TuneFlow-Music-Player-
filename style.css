@@ -39,10 +39,6 @@ body {
     cursor: pointer;
 }
 
-.home {
-    /* padding: 10px; */
-}
-
 .logo img{
     width: 120px;
 }
@@ -407,7 +403,7 @@ body {
     }
     .cardcontainer{
         margin: 20px 10px;
-        gap:10;
+        gap: 100px;;
         /* justify-content: space-around; */
     }
     .card{
