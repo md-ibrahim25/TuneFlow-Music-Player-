@@ -17,7 +17,7 @@ function convertSecondsToMinutes(seconds) {
 
 //Function to get the folder names 
 async function displayAlbums() {
-    let a = await fetch("/songs/",{ mode: 'no-cors' });
+    let a = await fetch("https://github.com/md-ibrahim25/TuneFlow-Music-Player-/tree/main/songs/",{ mode: 'no-cors' });
     let response = await a.text();
     let CardContainer = document.querySelector('.cardcontainer');
     // console.log(response);
@@ -32,7 +32,7 @@ async function displayAlbums() {
         
         if(e.href.includes("/songs")){
             let folder = (e.href.split("/").slice(-2)[0]);
-            let a = await fetch(`/songs/${folder}/info.json`, { mode: 'no-cors' });
+            let a = await fetch(`https://github.com/md-ibrahim25/TuneFlow-Music-Player-/tree/main/songs/${folder}/info.json`, { mode: 'no-cors' });
             let response = await a.json();
             // console.log(response);
             CardContainer.innerHTML += `<div data-folder="${folder}" class="card">
@@ -58,7 +58,7 @@ async function displayAlbums() {
 //Function to get songs
 async function getSongs(folder) {
     currFolder = folder;
-    let a = await fetch(`/songs/${folder}`,{ mode: 'no-cors' });
+    let a = await fetch(`https://github.com/md-ibrahim25/TuneFlow-Music-Player-/tree/main/songs/${folder}`,{ mode: 'no-cors' });
     let response = await a.text();
     let div = document.createElement("div");
     div.innerHTML = response;
